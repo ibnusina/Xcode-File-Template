@@ -8,11 +8,11 @@
   	<array>
 		<dict>
 			<key>Description</key>
-			<string>View Name</string>
+			<string>Class/Struck name</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>View Name:</string>
+			<string>Class/Struck name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>

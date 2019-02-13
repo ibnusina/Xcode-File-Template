@@ -3,7 +3,7 @@
 import UIKit
 
 protocol ___FILEBASENAME___Delegate: class {
-    
+    <#delegate functions#>
 }
 
 class ___FILEBASENAME___: UIView {
