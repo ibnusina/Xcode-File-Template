@@ -19,7 +19,7 @@ Clone or download the repo, and run bellow commands inside cloned/donwloaded fol
 
 The added templates can be found when you add new file
 
-[New file window](docs/images/templates.png)
+![New file window](docs/images/templates.png)
 
 ## How Create and Add Your New Template
 
@@ -28,12 +28,12 @@ Copy with different name one of the template as starting point, then modify it a
 
 ## How To Contribute To This Repository
 
-Your finished template can be added to root folder of this repository, then modify the **Makefile** as below so your template will be listed when ** make install**/** make uninstall** executed
+Your finished template can be added to root folder of this repository, then modify the **Makefile** as below so your template will be listed when **make install**/**make uninstall** executed
 
 ```
 TEMPLATES=	View\ With\ XIB.xctemplate \
-			File\ With\ Delegate.xctemplate \
-			Your\ New\ Template.xctemplate
+		File\ With\ Delegate.xctemplate \
+		Your\ New\ Template.xctemplate
 
 ```
 
