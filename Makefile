@@ -2,7 +2,7 @@ XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
 
 #array of templates name, currently there is only one tempate, so the array contains 2 element with same value for testing multiple folder copy
 TEMPLATES=	View\ With\ XIB.xctemplate \
-			View\ With\ XIB.xctemplate
+			File\ With\ Delegate.xctemplate
 
 install:
 	mkdir -p $(XCODE_USER_TEMPLATES_DIR)

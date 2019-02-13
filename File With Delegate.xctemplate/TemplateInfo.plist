@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+  	<key>Options</key>
+  	<array>
+		<dict>
+			<key>Description</key>
+			<string>Class/Struck name</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class/Struck name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Description</key>
+			<string>The implementation language</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Swift</string>
+			<key>Values</key>
+			<array>
+				<string>Swift</string>
+			</array>
+			<key>MainTemplateFiles</key>
+			<dict>
+				<key>Swift</key>
+				<string>___FILEBASENAME___.swift</string>
+			</dict>
+			<key>AllowedTypes</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<string>public.swift-source</string>
+				</array>
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>
